@@ -1,0 +1,43 @@
+
+.ct{
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ct-texts {
+    width: 65%;
+  }
+  
+  .ct-title {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .ct-desc {
+    margin: 20px 0px;
+    font-size: 25px;
+  }
+  .desc-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Icon{
+    margin-right: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  @media screen and (max-width: 480px) {
+    .ct-desc {
+      font-size: 12px;
+    }
+    .ct-title{
+      font-size: 30px;
+    }
+}

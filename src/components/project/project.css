@@ -1,0 +1,73 @@
+.p {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.p-browser {
+  height: 20px;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: sticky;
+  z-index: 2;
+  
+}
+.pp-browser {
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-name{
+  position: absolute;
+  font-size: 15px;
+  top: -1;
+  left: 0;
+  right: 0;
+  
+}
+
+.p-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: white;
+}
+
+.p-img {
+  width: 100%;
+}
+
+@keyframes changey {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+h4{
+  margin-left:70px;
+  font-weight: 400;
+}
+
+.p:hover .p-img {
+  animation-duration: 5s;
+  animation-name: changey;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
+}
