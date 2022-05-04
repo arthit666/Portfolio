@@ -3,7 +3,7 @@ import blog from './img/blog.png'
 import nike from './img/nike.png'
 import travel from './img/travel.jpg'
 import codepen from './img/codepen.png'
-import js from './img/js.png'
+import js from './img/js.jpg'
 export const products = [
   {
     id: 1,
@@ -38,7 +38,7 @@ export const products = [
   {
     id: 6,
     img: js,
-    link: "https://github.com/Arthit666/JavaScript-21-Days-Challenge",
-    name: "Js-21-Challenge"
+    link: "https://github.com/Arthit666/React-native-layout-getAPI/tree/main",
+    name: "RN-Layout-Getapi"
   },
 ];
