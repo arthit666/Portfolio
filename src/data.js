@@ -39,6 +39,6 @@ export const products = [
     id: 6,
     img: js,
     link: "https://github.com/Arthit666/React-native-layout-getAPI/tree/main",
-    name: "RN-Layout-Getapi"
+    name: "Flutter-Vibration-IOT"
   },
 ];
