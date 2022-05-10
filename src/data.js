@@ -13,32 +13,33 @@ export const products = [
   },
   {
     id: 2,
+    img: js,
+    link: "https://github.com/Arthit666/Flutter_vibration_demo",
+    name: "Flutter-Vibration-IOT"
+  },
+  {
+    id: 3,
     img: blog,
     link: "https://arthit-blog-app.herokuapp.com/",
     name: "Blog-App"
   },
+  
   {
-    id: 3,
+    id: 4,
     img: nike,
     link: "https://arthit666.github.io/E-commerce-Website-Nike/",
     name: "E-commerce-Nike"
   },
   {
-    id: 4,
+    id: 5,
     img: travel,
     link: "https://travel-arthit.netlify.app/",
     name: "Travel"
   },
   {
-    id: 5,
+    id: 6,
     img: codepen,
     link: "https://codepen.io/arthit666",
     name: "My-Codeped"
-  },
-  {
-    id: 6,
-    img: js,
-    link: "https://github.com/Arthit666/Flutter_vibration_demo",
-    name: "Flutter-Vibration-IOT"
   },
 ];
