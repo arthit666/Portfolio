@@ -20,7 +20,7 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            I worked not in the brance,but I aways wanted to develop myselft.and
+            I worked not in the brance,but I aways wanted to develop myselft,and
             I think developers job able to do that Because developers can grow
             based on their diligence to always learn.
           </p>
