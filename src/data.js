@@ -20,7 +20,7 @@ export const products = [
   {
     id: 3,
     img: blog,
-    link: "https://arthit-blog-app.herokuapp.com/",
+    link: "https://github.com/arthit666/MernStack-BlogApp",
     name: "Blog-App"
   },
   
