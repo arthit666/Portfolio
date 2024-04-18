@@ -5,7 +5,8 @@ import codepen from './img/codepen.png'
 import vibration_full from './img/vibration_full.png'
 import banking from './img/banking_api.png'
 import site_around_fm from './img/site_around_fm.png'
-// import js from './img/js.jpg'
+import shop from './img/shop.png'
+import js from './img/js.png'
 export const my_project = [
   {
     id: 1,
@@ -19,17 +20,23 @@ export const my_project = [
     link: "https://github.com/Arthit666/Flutter_vibration_demo",
     name: "Vibration-IOT"
   },
-  // {
-  //   id: 3,
-  //   img: js,
-  //   link: "https://github.com/Arthit666/Flutter_vibration_demo",
-  //   name: "Flutter-Vibration-IOT"
-  // },
+  {
+    id: 3,
+    img: shop,
+    link: "https://github.com/arthit666/echo_shop_api",
+    name: "Shop-API-Clean-Architecture"
+  },
   {
     id: 4,
     img: blog,
     link: "https://github.com/arthit666/MernStack-BlogApp",
     name: "Blog-App"
+  },
+  {
+    id: 5,
+    img: js,
+    link: "https://github.com/arthit666/JavaScript-21-Days-Challenge",
+    name: "JavaScript-21-Days-Challenge"
   },
   
   // {
