@@ -8,6 +8,7 @@ import cloud_pocket from './img/cloud_pocket.png'
 import site_around_fm from './img/site_around_fm.png'
 import shop from './img/shop.png'
 import ck from './img/ck.png'
+import bird from './img/bird.png'
 import ct from './img/ct.jpeg'
 import js from './img/js.png'
 export const my_project = [
@@ -28,6 +29,12 @@ export const my_project = [
     img: shop,
     link: "https://github.com/arthit666/echo_shop_api",
     name: "Shop-API-Clean-Architecture"
+  },
+  {
+    id: 4,
+    img: bird,
+    link: "https://github.com/arthit666/flame_flappy_bird",
+    name: "Flame-Flappy-Bird"
   },
   {
     id: 5,
