@@ -10,7 +10,8 @@ import shop from './img/shop.png'
 import ck from './img/ck.png'
 import bird from './img/bird.png'
 import ct from './img/ct.jpeg'
-import js from './img/js.png'
+import login from './img/login.png'
+// import js from './img/js.png'
 export const my_project = [
   {
     id: 1,
@@ -36,11 +37,17 @@ export const my_project = [
     link: "https://github.com/arthit666/flame_flappy_bird",
     name: "Flame-Flappy-Bird"
   },
+  // {
+  //   id: 5,
+  //   img: js,
+  //   link: "https://github.com/arthit666/JavaScript-21-Days-Challenge",
+  //   name: "JavaScript-21-Days-Challenge"
+  // },
   {
     id: 5,
-    img: js,
-    link: "https://github.com/arthit666/JavaScript-21-Days-Challenge",
-    name: "JavaScript-21-Days-Challenge"
+    img: login,
+    link: "https://github.com/arthit666/Flutter_firebase_auth",
+    name: " Firebase-Authentication"
   },
   
   // {
