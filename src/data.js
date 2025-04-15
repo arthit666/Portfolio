@@ -11,6 +11,7 @@ import ck from './img/ck.png'
 import bird from './img/bird.png'
 import ct from './img/ct.jpeg'
 import login from './img/login.png'
+import pos from './img/pos.png'
 // import js from './img/js.png'
 export const my_project = [
   {
@@ -84,5 +85,12 @@ export const previous_project = [
     img: site_around_fm,
     link: "https://play.google.com/store/apps/details?id=com.sitearound.fm&hl=th&gl=US",
     name: "Site Around"
+  },
+
+  {
+    id: 12,
+    img: pos,
+    link: "",
+    name: "Point of Sales"
   },
 ];
